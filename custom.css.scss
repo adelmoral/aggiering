@@ -1,0 +1,166 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+/* universal */
+
+img {
+  display: inline-block;
+}
+
+.two-col-special {
+    /*border: 1px dotted blue;*/
+    overflow: auto;
+    margin: 0;
+    padding: 0;
+}
+
+.two-col-special li {
+    display: inline-block;
+    width: 45%;
+    margin: 0;
+    padding: 0;
+    vertical-align: top; /* In case multi-word categories form two lines */
+}
+.two-col-special li:before {
+    content: '●';
+    padding: 5px;
+    margin-right: 5px; /* you can tweak the gap */
+    color: #99000d;
+    background-color: white; /* in case you want a color... */
+    display: inline-block;
+}
+
+.btn {
+  background: #99000d;
+  color: black;
+  border: black;
+}
+
+.btn:focus {
+  background: #99000d;
+  color: black;
+  border: black;
+}
+
+.btn:hover {
+  background: #660009;
+  color: black;
+  border: black;
+}
+
+body {
+  padding-top: 60px;
+  background-image: url("https://i.ytimg.com/vi/L4jJLd1jPjE/maxresdefault.jpg");
+}
+
+section {
+  overflow: auto;
+}
+
+textarea {
+  resize: vertical;
+}
+
+.center {
+  text-align: center;
+}
+
+.center h1 {
+  margin-bottom: 10px;
+}
+
+/* typography */
+
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1;
+font-family: "Book Antiqua", Book, serif;
+}
+
+h1 {
+  font-size: 3em;
+  letter-spacing: -2px;
+  margin-bottom: 30px;
+  text-align: center;
+  color: white;
+}
+
+h2 {
+  font-size: 1.2em;
+  letter-spacing: -1px;
+  margin-bottom: 30px;
+  text-align: left;
+  font-weight: normal;
+  color: white;
+}
+
+p {
+  font-size: 1.1em;
+  line-height: 1.7em;
+  color: white;
+}
+
+/* header */
+
+#logo {
+font-family: "Book Antiqua", Book, serif;
+  float: left;
+  margin-right: 10px;
+  font-size: 1.7em;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  padding-top: 9px;
+  font-weight: bold;
+}
+
+#logo:hover {
+  color: #d3d3d3;
+  text-decoration: none;
+}
+
+#linklogo {
+font-family: "Book Antiqua", Book, serif;
+  float: right;
+  margin-right: 2px;
+  font-size: 1.4em;
+  color: #fff;
+  letter-spacing: -1px;
+  padding-top: 16px;
+}
+
+#linklogo:hover {
+  color: #99000d;
+  text-decoration: none;
+}
+
+
+/* footer */
+
+footer {
+  margin-top: 45px;
+  padding-top: 5px;
+  border-top: 1px solid #eaeaea;
+  color: #777;
+}
+
+footer a {
+  color: #555;
+}
+
+footer a:hover {
+  color: #222;
+}
+
+footer small {
+  float: left;
+}
+
+footer ul {
+  float: right;
+  list-style: none;
+}
+
+footer ul li {
+  float: left;
+  margin-left: 15px;
+}
